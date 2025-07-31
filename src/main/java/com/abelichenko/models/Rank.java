@@ -28,10 +28,6 @@ public class Rank {
         return perms;
     }
 
-    public void setPerms(int perms) {
-        this.perms = perms;
-    }
-
     @Override
     public String toString() {
         return "Rank{" +
