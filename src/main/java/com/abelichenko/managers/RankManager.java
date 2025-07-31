@@ -29,12 +29,5 @@ public class RankManager {
         return ranks;
     }
 
-    public void printRankInfo(int id) {
-        Rank rank = ranks.get(id);
-        if (rank != null) {
-            System.out.println("Ранг ID: " + rank.getId() + ", Название: " + rank.getName() + ", Звание: " + rank.getPerms());
-        } else {
-            System.out.println("Ранг с ID " + id + " не найден");
-        }
-    }
+
 }
